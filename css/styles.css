@@ -1,0 +1,40 @@
+body{background-color:#f8f9fa;color:#020202;font-family:Arial,sans-serif;margin:0;padding:0;box-sizing:border-box;padding-top:0px}
+header{position:relative;height:190px;overflow:hidden;margin-top:60px;display:block}
+header img{width:90rem;height:15rem}.header-text{position:absolute;top:50%;left:20%;transform:translate(-50%,-50%);color:white;font-size:24px}
+nav{background-color:#000408;color:#fff;padding:10px;margin-top:0px;margin-left:auto;margin-right:auto;margin-top:0px}
+nav a{}
+ul li{display:inline-block;padding:5px;background-color:#000408}
+ul li:hover{background-color:rgb(109,109,112)}.navbar-brand img{width:150px;height:auto}
+#topoId,#destaquesId,#produtosId,#sobrenosId,#tabelaPrecosId,#promocaoId,#acessoriosId{padding-top:70px}.carousel{max-width:300px;margin:auto}.carousel img{width:50%;height:auto}
+main{background-color:#fff;padding:20px;margin-top:10px}.produtos{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px}.produtos figure{border:1px solid #ddd;border-radius:5px;overflow:hidden}.produtos img{width:100%;height:auto}.sobrenos{text-align:justify}.banner{border:5px solid #e45b25;padding:10px;border-radius:5px}.banner{border:5px solid #e45b25;padding:30px;border-radius:5px;position:relative;text-align:center}.banner h1{color:#e45b25;font-size:1.5em;margin-bottom:10px;animation:destaque 2s ease-in-out infinite alternate}
+@keyframes destaque{from{transform:scale(1);opacity:0.8}
+to{transform:scale(1.1);opacity:1}}.grad{margin:5vw;border-radius:10px;width:20vw;height:20vw;background-color:blue;position:relative;animation:exemplo 4s 1s infinite linear both}
+@keyframes exemplo{0%{transform:rotate(0deg)}
+25%{transform:rotate(90deg)}
+50%{transform:rotate(180deg)}
+75%{transform:rotate(270deg)}
+100%{transform:rotate(360deg)}}.grad img{width:100%;height:100%}
+aside{background-color:#f8f9fa;padding:20px;margin-top:10px}.acessorios figure,.modal-body figure,.modal-miniatura figure{border:1px solid #ddd;border-radius:5px;overflow:hidden;text-align:center;margin-bottom:15px}.acessorios img,.modal-body img,.modal-miniatura img{width:100%;height:auto}.modal-body figure{border:1px solid #ddd;border-radius:5px;overflow:hidden}.modal-body img{width:80%;height:auto}.modal-miniatura figure{border:1px solid #ddd;border-radius:5px;overflow:hidden}.modal-miniatura img{width:30%;height:auto}
+footer{background-color:#898a8b;color:#fff;padding:10px;margin-top:40px}.rodape{display:grid;grid-template-columns:repeat(1,1fr);gap:10px}.redes-sociais a{color:#fff;text-decoration:none}.redes-sociais a:hover{text-decoration:underline}.rodape.direitos,.rodape.informacoes-contato,.rodape.redes-sociais,.rodape.endereco-loja{font-size:12px}
+@media(max-width:767px){header{display:none}}
+nav{background-color:#000408;color:#fff;padding:10px;margin-top:0px}
+ul li:hover{background-color:rgb(109,109,112)}
+main{background-color:#fff;padding:20px;margin-top:10px}.produtos{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px}.table{width:100%}
+aside{background-color:#f8f9fa;padding:20px;margin-top:10px}
+footer{background-color:#898a8b;color:#fff;padding:10px;margin-top:40px}
+@media(max-width:767px){nav ul{flex-direction:column}
+nav li{margin-bottom:10px}
+main{padding:10px}.produtos{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}.table{font-size:14px}
+aside{padding:10px}
+footer{padding:5px}}
+@media(min-width:768px){}
+@media(min-width:768px)and(max-width:991px){nav ul{flex-direction:row;font-size:15px}
+nav li{margin-right:15px}
+main{max-width:800px;margin:0 auto}.produtos{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}.table{font-size:12px}
+aside{padding:15px}}
+@media(min-width:992px)and(max-width:1199px){nav ul{font-size:15px}
+main{max-width:1000px;margin:0 auto}.produtos{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.table{font-size:15px}
+aside{padding:20px}}
+@media(min-width:1200px){nav ul{font-size:15px}
+main{max-width:1200px;margin:0 auto}.produtos{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}.table{font-size:20px}
+aside{padding:25px}}
